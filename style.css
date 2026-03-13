@@ -1,0 +1,122 @@
+/* project css*/
+
+*{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+font-family: "Rakkas", serif;
+font-weight: 400;
+font-style: normal;
+background-color: rgb(39, 37, 49);
+}
+
+.important{
+    color: blue;
+    text-decoration: underline;
+}
+
+/* Navigation Bar */
+.navigation{
+    font-size: 30px;
+    color: rgb(24, 20, 58);
+    background-color: rgb(97, 122, 190);
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+    
+}
+
+.nav-title{
+text-decoration: underline;
+background-color: rgb(97, 122, 190);
+}
+
+#nav-item{
+    align-content: center;
+    background-color: rgb(97, 122, 190);
+}
+
+#nav-photo{
+    width: 200px;
+    height: 200px;
+}
+
+#nav-link{
+    text-decoration: underline;
+    color: bl;
+}
+
+/* Info Section */
+
+.info-div{
+text-align: center;
+font-size: 25px;
+padding: 10px;
+color: rgb(200, 200, 200);
+}
+
+.info-text{
+    
+}
+
+/* projects section*/
+
+#project-container{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 20px; 
+}
+
+.box{
+    background-color:rgb(16, 12, 47);
+    border-radius: 10px;
+    height: auto;
+    width: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+img {
+    
+    width: 200px;
+    height: 200px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.image{
+background-color:rgb(16, 12, 47);
+height: 200px;
+width: 200px;
+}
+
+.description{
+background-color:rgb(16, 12, 47);
+}
+
+.tag{
+}
+
+.visit{
+color: rgb(200, 200, 200);
+background-color:rgb(24, 20, 58);
+padding: 5px;
+}
+
+.tag-item{
+color: rgb(200, 200, 200);
+background-color:rgb(24, 20, 58);
+padding: 5px;
+}
+
+.comment{
+   color: rgb(200, 200, 200);
+   padding: 5px; 
+   border: 1 px solid blue;
+   background-color:rgb(24, 20, 58);
+   border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
