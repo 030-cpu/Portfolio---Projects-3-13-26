@@ -1,4 +1,4 @@
-/* project css*/
+/* portfolio - projects css*/
 
 *{
 padding: 0px;
@@ -10,7 +10,7 @@ font-style: normal;
 background-color: rgb(39, 37, 49);
 }
 
-.important{
+.text-item:hover {
     color: blue;
     text-decoration: underline;
 }
@@ -88,35 +88,34 @@ img {
     border-top-right-radius: 15px;
 }
 .image{
-background-color:rgb(16, 12, 47);
 height: 200px;
 width: 200px;
 }
 
 .description{
-background-color:rgb(16, 12, 47);
+background-color:rgb(25, 20, 66);
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+
+
+.visit{
+background-color: inherit;
+color: rgb(200, 200, 200);
+padding: 5px;
+border-bottom: 1px solid rgb(97, 122, 190);
 }
 
 .tag{
-}
-
-.visit{
+background-color: inherit;
 color: rgb(200, 200, 200);
-background-color:rgb(24, 20, 58);
 padding: 5px;
-}
-
-.tag-item{
-color: rgb(200, 200, 200);
-background-color:rgb(24, 20, 58);
-padding: 5px;
+border-bottom: 1px solid rgb(97, 122, 190);
 }
 
 .comment{
-   color: rgb(200, 200, 200);
-   padding: 5px; 
-   border: 1 px solid blue;
-   background-color:rgb(24, 20, 58);
-   border-bottom-left-radius: 15px;
-   border-bottom-right-radius: 15px;
+background-color: inherit;
+color: rgb(200, 200, 200);
+padding: 5px; 
+border-radius: inherit;
 }
