@@ -1,240 +1,137 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Passion+One:wght@400;700;900&family=Rakkas&display=swap" rel="stylesheet">
-<title> Project Page</title>
+/* portfolio - projects css*/
 
-</head>
-<body>
-    <!-- Navigation -->
-    <nav class="navigation">
-        <h1 id="nav-item" class="nav-title, text-item" > Home </h1>
-        <h1 id="nav-item" class="nav-title, text-item"> Projects </h1>   
-        <h1 id="nav-item" class="nav-title, text-item"> Resume </h1>
-        <h1 id="nav-item" class="nav-title, text-item"> Contact </h1>
-     </nav>
+*{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+font-family: "Rakkas", serif;
+font-weight: 400;
+font-style: normal;
+background-color: rgb(39, 37, 49);
+}
 
-    <!-- Projects Info -->
-     <div class="info-div">
-        <p class="info-text"> Here is a variety of projects I've worked on: click on them to view them in a seperate browser. </p>
-     </div>
-    <!-- Project Section -->
+.text-item:hover {
+    color: blue;
+    text-decoration: underline;
+}
 
-     <div id="project-container">
-            <div class="box">
-                <div class="image"><img src="Portfolio Images/calc.png" alt="Calculator App Image"></div>
-                <div class="description">         
-                        <div class="visit"> Visit Project! </div>
-                        <div class="tag"> Javascript </div>
-                        <div class="comment"> Name: Calculator App </div>
-                </div>
-            </div>
+.visit:hover {
+    color: blue;
+    text-decoration: underline;
+}
 
-            <div class="box">
-                <div class="image"><img src="Portfolio Images/number-guess.png" alt=" Number Guess game"></div>
-                <div class="description"> 
-                    <div class="tag">
-                        <div class="visit"> Visit Project</div>
-                        <div class="tag-item"> Javascript </div>
-                    </div>
-                    <div class="comment"> Number Guessing game </div>
-                </div>
-            </div>
+/* Navigation Bar */
+.navigation{
+    font-size: 30px;
+    color: rgb(24, 20, 58);
+    background-color: rgb(97, 122, 190);
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+    
+}
 
-            <div class="box">
-                <div class="image">blank</div>
-                <div class="description"> 
-                    <div class="tag">
-                        <div class="visit"> Visit Project</div>
-                        <div class="tag-item"> Javascript </div>
-                    </div>
-                    <div class="comment"> Unit Conversion App </div>
-                </div>
-            </div>
+.nav-title{
+text-decoration: underline;
+background-color: rgb(97, 122, 190);
+}
 
-            <div class="box">
-                <div class="image">blank</div>
-                <div class="description"> 
-                    <div class="tag">
-                        <div class="visit"> Visit Project</div>
-                        <div class="tag-item"> Javascript </div>
-                    </div>
-                    <div class="comment"> Monthly Budget </div>
-                </div>
-            </div>
+#nav-item{
+    align-content: center;
+    background-color: rgb(97, 122, 190);
+}
 
-            <div class="box">
-                <div class="image">blank</div>
-                <div class="description"> 
-                    <div class="tag">
-                        <div class="visit"> Visit Project</div>
-                        <div class="tag-item"> Javascript </div>
-                    </div>
-                    <div class="comment"> Voting App</div>
-                </div>
-            </div>
+#nav-photo{
+    width: 200px;
+    height: 200px;
+}
 
-            <div class="box">
-                <div class="image">blank</div>
-                <div class="description"> 
-                    <div class="tag">
-                        <div class="visit"> Visit Project</div>
-                        <div class="tag-item"> Javascript </div>
-                    </div>
-                    <div class="comment"> Task Manager App </div>
-                </div>
-            </div>
+#nav-link{
+    text-decoration: underline;
+    color: bl;
+}
 
-            <div class="box">
-                <div class="image">blank</div>
-                <div class="description"> 
-                    <div class="tag">
-                        <div class="visit"> Visit Project</div>
-                        <div class="tag-item"> Javascript </div>
-                    </div>
-                    <div class="comment"> Age Counter App </div>
-                </div>
-            </div>
+/* Info Section */
 
-            <div class="box">
-                <div class="image">blank</div>
-                <div class="description"> 
-                    <div class="tag">
-                        <div class="visit"> Visit Project</div>
-                        <div class="tag-item"> Javascript</div>
-                    </div>
-                    <div class="comment"> Tech E-Comm Website</div>
-                </div>
-            </div>
+.info-div{
+text-align: center;
+font-size: 25px;
+padding: 10px;
+color: rgb(200, 200, 200);
+}
 
-            <div class="box">
-                <div class="image">blank</div>
-                <div class="description"> 
-                    <div class="tag">
-                        <div class="visit"> Visit Project</div>
-                        <div class="tag-item"> Javascript</div>
-                    </div>
-                    <div class="comment"> Event Speaker Webpage</div>
-                </div>
-            </div>
+/* .info-text{
 
-            <div class="box">
-                <div class="image">blank</div>
-                <div class="description"> 
-                    <div class="tag">
-                        <div class="visit"> Visit Project</div>
-                        <div class="tag-item"> Javascript </div>
-                    </div>
-                    <div class="comment"> Employee Managment System</div>
-                </div>
-            </div>
+} */
 
-            <div class="box">
-                <div class="image">blank</div>
-                <div class="description"> 
-                    <div class="tag">
-                        <div class="visit"> Visit Project</div>
-                        <div class="tag-item"> Javascript </div>
-                    </div>
-                    <div class="comment"> Text Formatter App </div>
-                </div>
-            </div>
+/* projects section*/
 
-            <div class="box">
-                <div class="image">blank</div>
-                <div class="description"> 
-                    <div class="tag">
-                        <div class="visit"> Visit Project</div>
-                        <div class="tag-item"> Javascript </div>
-                    </div>
-                    <div class="comment"> Book Manager App </div>
-                </div>
-            </div>
+#project-container{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 20px; 
+}
 
-            <div class="box">
-                <div class="image">blank</div>
-                <div class="description"> 
-                    <div class="tag">
-                        <div class="visit"> Visit Project</div>
-                        <div class="tag-item"> Javascript </div>
-                    </div>
-                    <div class="comment"> Expense Tracker App </div>
-                </div>
-            </div>
+.box{
+    background-color:rgb(16, 12, 47);
+    border-radius: 10px;
+    height: 400px;
+    width: 250px;
+    text-align: center;
+    padding: 20px;
+}
 
-            <div class="box">
-                <div class="image">blank</div>
-                <div class="description"> 
-                    <div class="tag">
-                        <div class="visit"> Visit Project</div>
-                        <div class="tag-item"> Javascript </div>
-                    </div>
-                    <div class="comment"> Image/Emoji Grid App </div>
-                </div>
-            </div>
+img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    justify-content: center;
+}
+.image{
+height: 200px;
+width: auto;
+justify-content: center;
+background-color:rgb(16, 12, 47);
+}
 
-            <div class="box">
-                <div class="image">blank</div>
-                <div class="description"> 
-                    <div class="tag">
-                        <div class="visit"> Visit Project</div>
-                        <div class="tag-item"> Javascript</div>
-                    </div>
-                    <div class="comment"> Emoji Memory Game </div>
-                </div>
-            </div>
+.description{
+background-color:rgb(25, 20, 66);
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+height: 150px;
+}
 
-            <div class="box">
-                <div class="image">blank</div>
-                <div class="description"> 
-                    <div class="tag">
-                        <div class="visit"> Visit Project</div>
-                        <div class="tag-item"> Javascript</div>
-                    </div>
-                    <div class="comment"> Classroom Seating App </div>
-                </div>
-            </div>
 
-            <div class="box">
-                <div class="image">blank</div>
-                <div class="description"> 
-                    <div class="tag">
-                        <div class="visit"> Visit Project</div>
-                        <div class="tag-item"> Javascript </div>
-                    </div>
-                    <div class="comment"> Flip Card </div>
-                </div>
-            </div>
+.visit{
+background-color: inherit;
+color: rgb(200, 200, 200);
+padding: 5px;
+border-bottom: 1px solid rgb(97, 122, 190);
+height: 33%;
+padding: 5%;
+}
 
-            <div class="box">
-                <div class="image">blank</div>
-                <div class="description"> 
-                    <div class="tag">
-                        <div class="visit"> Visit Project</div>
-                        <div class="tag-item"> Javascript </div>
-                    </div>
-                    <div class="comment"> Flash Card App </div>
-                </div>
-            </div>
+.tag{
+background-color: inherit;
+color: rgb(200, 200, 200);
+padding: 5px;
+border-bottom: 1px solid rgb(97, 122, 190);
+height: 33%;
+padding: 5%;
+}
 
-            <div class="box">
-                <div class="image">blank</div>
-                <div class="description"> 
-                    <div class="tag">
-                        <div class="visit"> Visit Project</div>
-                        <div class="tag-item"> Javascript </div>
-                    </div>
-                    <div class="comment"> HTML Project</div>
-                </div>
-            </div>
-
-            
-        </div>
-    </div>
-</body>
-</html>
+.comment{
+background-color: inherit;
+color: rgb(200, 200, 200);
+padding: 5px; 
+border-radius: inherit;
+height: auto;
+padding: 5%;
+text-align: center;
+flex-wrap: wrap;
+}
